@@ -502,18 +502,7 @@ function App() {
             </div>
           </div>
 
-          <div className="pt-24 mt-24 border-t border-slate-200 opacity-50">
-            <p className="text-slate-400 font-black uppercase tracking-[0.5em] text-xs text-center">
-              © 2026 DIGITAL AFFIDAVIT | LIFE RECONSTRUCTION PORTAL | CHIN CHEONG GHEE
-            </p>
-          </div>
-        </div>
-      </section>
-
-    </div>
-  );
-};
-{/* NEW: Interactive Flipbook Access Section */}
+          {/* NEW: Interactive Flipbook Access Section - NOW INSIDE THE COMPONENT */}
           <div className="mt-16 p-8 bg-white rounded-[40px] shadow-2xl border-4 border-sky-500 relative group overflow-hidden">
             <div className="absolute inset-0 bg-sky-500/5 group-hover:bg-sky-500/10 transition-colors"></div>
             <div className="relative z-10 text-center">
@@ -529,6 +518,15 @@ function App() {
             </div>
           </div>
 
-
+          <div className="pt-24 mt-24 border-t border-slate-200 opacity-50 text-center">
+            <p className="text-slate-400 font-black uppercase tracking-[0.5em] text-xs">
+              © 2026 DIGITAL AFFIDAVIT | LIFE RECONSTRUCTION PORTAL | CHIN CHEONG GHEE
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default App;
