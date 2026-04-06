@@ -85,6 +85,32 @@ function App() {
               </div>
             </div>
           </div>
+          {/* NEW: Storybook Narrative Video - Single Row Layout */}
+          <div className="mt-16 bg-slate-900 rounded-[40px] p-8 md:p-12 shadow-[0_25px_60px_rgba(0,0,0,0.3)] border-4 border-[#F59E0B] relative z-10">
+            <div className="flex flex-col items-center">
+              <h2 className="text-3xl md:text-5xl font-black mb-8 text-[#F59E0B] tracking-tighter uppercase text-center">
+                Interactive Storybook: The Sovereign Journey
+              </h2>
+              
+              {/* Single Video Container with ring-slate-800 */}
+              <div className="aspect-video w-full max-w-5xl bg-black rounded-2xl overflow-hidden shadow-inner ring-4 ring-slate-800">
+                <iframe 
+                  src="https://youtube.com/embed/m8HDfHfL-oA" 
+                  title="Life Reconstruction Storybook Video" 
+                  className="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              <div className="mt-8 max-w-3xl text-center">
+                <p className="text-slate-300 text-xl font-bold italic border-b-2 border-[#10B981] inline-block pb-2">
+                  An immersive audio-visual chronicle of biological survival and technical resurrection.
+                </p>
+              </div>
+            </div>
+          </div>
+
 
           {/* DIGITAL AFFIDAVIT SECTION (REPLACING IFRAMES WITH DIRECT LINKS) */}
 <section className="bg-slate-900 rounded-3xl p-8 md:p-12 shadow-2xl border-l-8 border-sky-500 text-white my-12">
@@ -487,5 +513,22 @@ function App() {
     </div>
   );
 };
+{/* NEW: Interactive Flipbook Access Section */}
+          <div className="mt-16 p-8 bg-white rounded-[40px] shadow-2xl border-4 border-sky-500 relative group overflow-hidden">
+            <div className="absolute inset-0 bg-sky-500/5 group-hover:bg-sky-500/10 transition-colors"></div>
+            <div className="relative z-10 text-center">
+              <h3 className="text-3xl font-black text-slate-900 mb-4 uppercase tracking-tight">Interactive Forensic Flipbook</h3>
+              <p className="text-lg text-slate-600 mb-8 font-bold max-w-2xl mx-auto">
+                Access the digital version of "The Life Reconstruction." Explore the forensic evidence, lab reports, and systemic extraction timeline in a flippable format.
+              </p>
+              <a href="https://heyzine.com/flip-book/cfa8537705.html" 
+                 target="_blank" rel="noopener noreferrer" 
+                 className="inline-block bg-sky-600 text-white px-12 py-5 rounded-full font-black text-xl hover:bg-sky-500 hover:scale-105 transition-all shadow-lg uppercase tracking-widest border-b-4 border-sky-800">
+                Read Flipbook &rarr;
+              </a>
+            </div>
+          </div>
+
+
 
 export default App;
